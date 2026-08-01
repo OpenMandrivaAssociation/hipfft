@@ -2,7 +2,7 @@
 
 Name:		hipfft
 Version:	7.14.0
-Release:	1
+Release:	2
 Summary:	HIP FFT library (rocFFT wrapper)
 License:	MIT
 Group:		System/Libraries
@@ -20,7 +20,6 @@ BuildRequires:	rocm-hip-devel
 BuildRequires:	clang >= %{rocm_llvm_maj_ver}
 BuildRequires:	rocfft-devel
 
-ExclusiveArch:	%{x86_64} %{aarch64}
 
 %description
 hipFFT is a thin HIP API wrapper over rocFFT. GPU targets include gfx803.
