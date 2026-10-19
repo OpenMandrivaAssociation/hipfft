@@ -1,13 +1,13 @@
-# HIP FFT wrapper over rocFFT (TheRock 10.0)
+# HIP FFT wrapper over rocFFT (TheRock 10.1)
 
 Name:		hipfft
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	HIP FFT library (rocFFT wrapper)
 License:	MIT
 Group:		System/Libraries
 URL:		https://github.com/ROCm/rocm-libraries
-Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.0/hipfft.tar.gz#/hipfft-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-libraries/releases/download/therock-10.1/hipfft.tar.gz#/hipfft-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
